@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "cursorfix",
+  "version": "${version}",
+  "name": "CursorFix",
+  "description": "Always opens menus with the cursor centered, even after alt-tabbing (works around GLFW's stale restore position).",
+  "authors": ["Rana Studios"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["cursorfix.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
